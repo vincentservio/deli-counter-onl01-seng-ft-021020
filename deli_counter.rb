@@ -23,7 +23,7 @@ end
   def now_serving (other_deli)
     #binding.pry
     if other_deli.length > 0
-  puts "Currently serving Logan."
+  puts "Currently serving #{other_deli[0]}."
   other_deli.shift
 else 
   puts "There is nobody waiting to be served!"
